@@ -1,0 +1,4 @@
+nula = 0
+for i in range (0,10):
+    print("Prošli broj: " + str(nula) + "; Sadašnji broj: " + str(i) + " Zbroj:" + str(i+nula) )
+    nula = i
