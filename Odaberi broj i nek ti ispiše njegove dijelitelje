@@ -1,0 +1,11 @@
+broj=int(input("Upiši broj"))
+
+raspon=list(range(1,broj+1))
+
+dijelitelji=[]
+
+for x in raspon:
+    if broj % x == 0:
+        dijelitelji.append(x)
+
+print(dijelitelji)
