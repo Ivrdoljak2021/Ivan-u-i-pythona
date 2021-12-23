@@ -1,10 +1,11 @@
-broj_1=int(input("Izaberi jedan broj, sigurno ćeš pogriješiti:"))
 
-broj_2=int(input("Izaberi drugi broj, sigurno ćeš promašiti"))
+broj_1=int(input("Izaberi jedan broj: "))
+
+broj_2=int(input("Izaberi drugi broj: "))
 produkt=broj_1*broj_2
 suma=broj_1+broj_2
 
 if produkt>1000:
-    print("umnožak dva broja je" + str(produkt) + "")
+    print("umnožak dva broja je" + str(produkt))
 else:
-    print("zbroj dva broja je" + str(suma) + ""
+    print("zbroj dva broja je " + str(suma))
