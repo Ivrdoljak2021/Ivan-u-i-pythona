@@ -1,0 +1,11 @@
+limit=int(input("Upiši dokle"))
+
+raspon=list(range(1,limit))
+
+for x in raspon:
+    if x % 2 == 0:
+        print("" + str(x) + " Parni")
+    else:
+        print("" + str(x) + " Neparni")
+
+
