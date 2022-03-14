@@ -1,0 +1,15 @@
+from math import ceil
+
+brzina=int(input("Upiši brzinu kojom si vozio"))
+
+provjera=brzina-50
+
+bodovi=provjera/5
+
+if brzina < 50:
+    print("Bravo")
+else:
+    print("Broj bodova:" + str(ceil(bodovi)) + "" )
+
+if bodovi > 12:
+    print("Gubiš vozačku")
